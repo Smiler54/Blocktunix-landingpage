@@ -1,9 +1,9 @@
 export default function Testimonials(): JSX.Element {
     return (
         <div className="testimonials">
-            <div className="testimonials-container">
+            <div className="container">
                 <div className="title-section">
-                    <div className="text-content">
+                    <div className="text-content flex flex-col justify-center">
                         <h1 className="subtitle">Testimonials</h1>
                         <p className="title">What They Say About Blocktunix</p>
                     </div>
@@ -12,9 +12,9 @@ export default function Testimonials(): JSX.Element {
                     </div>
                 </div>
 
-                <div className="testimonials-content">
+                <div className="testimonials-content flex justify-between align-start">
                     <div className="testimonial-card gradient-border">
-                        <div className="card-content">
+                        <div className="card-content flex flex-col">
                             <div className="avatar"></div>
                             {/* <img src="/images/testimonial1.jpg" alt="" className="avatar" /> */}
                             <h2 className="content-title">“Secure and Transparent Transactions”</h2>
@@ -26,7 +26,7 @@ export default function Testimonials(): JSX.Element {
                     </div>
 
                     <div className="testimonial-card gradient-border">
-                        <div className="card-content">
+                        <div className="card-content flex flex-col">
                             <div className="avatar"></div>
                             {/* <img src="/images/testimonial1.jpg" alt="" className="avatar" /> */}
                             <h2 className="content-title">“Revolutionary DeFi Platform!”</h2>
@@ -38,7 +38,7 @@ export default function Testimonials(): JSX.Element {
                     </div>
 
                     <div className="testimonial-card gradient-border">
-                        <div className="card-content">
+                        <div className="card-content flex flex-col">
                             <div className="avatar"></div>
                             {/* <img src="/images/testimonial1.jpg" alt="" className="avatar" /> */}
                             <h2 className="content-title">“Empowering Financial Independence”</h2>
